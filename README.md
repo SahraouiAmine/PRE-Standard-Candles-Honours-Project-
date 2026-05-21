@@ -9,15 +9,16 @@ Core analysis of Photospheric Radius Expansion (PRE) bursts in globular cluster 
 
 - Verifies PRE burst peak flux consistency within single sources
 - Computes Eddington luminosities for globular cluster LMXBs using Harris (1998) cluster distances
-- Infers distances for field LMXBs and compares against Gaia parallaxes and catalog values
-- Applies anisotropy corrections (factor ξ) for inclination-dependent flux effects
+- Infers distances for field LMXBs and compares against Gaia parallaxes and other catalog values
+- Applies anisotropy corrections for inclination-dependent flux effects
 
 ### `Gaia-zp.ipynb`
-Estimates the Gaia DR3 parallax zero point local to a target source (Cyg X-2).
+Estimates the Gaia DR3 parallax zero point local to a target  
 
 - Queries Gaia DR3 for background quasars in a field around the target
-- Applies the Ding et al. (2021) filtering scheme (ecliptic latitude, magnitude, colour)
 - Computes a weighted-mean parallax zero point for use in correcting LMXB distance estimates
+- Applies zero-point corrections reported by Ding et al. and re-infers distances to 5 sources
+- Explores simpler correction schemes 
 
 ## Data
 
