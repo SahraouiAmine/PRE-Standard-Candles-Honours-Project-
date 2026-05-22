@@ -5,20 +5,20 @@ Analysis of Type I X-ray bursts as standard candles, using data from the [Multi-
 ## Notebooks
 
 ### `bursts_analysis.ipynb`
-Core analysis of Photospheric Radius Expansion (PRE) bursts in globular cluster and field LMXBs.
+analysis of Photospheric Radius Expansion bursts in globular cluster and field LMXBs.
 
-- Verifies PRE burst peak flux consistency within single sources
-- Computes Eddington luminosities for globular cluster LMXBs using Harris (1998) cluster distances
-- Infers distances for field LMXBs and compares against Gaia parallaxes and other catalog values
-- Applies anisotropy corrections for inclination-dependent flux effects
+- Verify PRE burst peak flux consistency within single sources
+- Compute Eddington luminosities for globular cluster LMXBs using cluster distances
+- Infer distances for field LMXBs and compares against Gaia parallaxes and other catalog values
+- Apply anisotropy corrections for inclination-dependent flux effects
 
 ### `Gaia-zp.ipynb`
 Estimates the Gaia DR3 parallax zero point local to a target  
 
 - Queries Gaia DR3 for background quasars in a field around the target
-- Computes a weighted-mean parallax zero point for use in correcting LMXB distance estimates
-- Applies zero-point corrections reported by Ding et al. and re-infers distances to 5 sources
-- Explores simpler correction schemes 
+- Compute a parallax zero point for use in correcting LMXB distance estimates
+- Apply zero-point corrections reported by Ding et al. and re-infers distances to 5 sources
+- Explore simpler correction schemes 
 
 ## Data
 
@@ -26,12 +26,6 @@ Estimates the Gaia DR3 parallax zero point local to a target
 |------|-------------|
 | `data/raw/minbar/minbar_bursts_web.txt` | MINBAR burst catalogue |
 | `data/raw/fortin_lmxb/LMXBwebcat_latest.csv` | Fortin et al. LMXB catalogue |
-
-## Dependencies
-
-```
-numpy pandas scipy matplotlib seaborn astropy astroquery ipyaladin
-```
 
 ## References
 
