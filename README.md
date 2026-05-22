@@ -27,6 +27,8 @@ Estimates the Gaia DR3 parallax zero point local to a target
 | `data/raw/minbar/minbar_bursts_web.txt` | MINBAR burst catalogue |
 | `data/raw/fortin_lmxb/LMXBwebcat_latest.csv` | Fortin et al. LMXB catalogue |
 
+for an interactive exploration of the MINBAR data, visit: https://minbar.streamlit.app/
+
 ## References
 
 - Kuulkers et al. (2003) — PRE bursts as standard candles
