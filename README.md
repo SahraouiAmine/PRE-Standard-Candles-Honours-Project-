@@ -12,7 +12,7 @@ analysis of Photospheric Radius Expansion bursts in globular cluster and field L
 - Infer distances for field LMXBs and compares against Gaia parallaxes and other catalog values
 - Apply anisotropy corrections for inclination-dependent flux effects
 
-### `Gaia-zp.ipynb`
+### `Gaia-zp.ipynb` (download to view)
 Estimates the Gaia DR3 parallax zero point local to a target  
 
 - Queries Gaia DR3 for background quasars in a field around the target
